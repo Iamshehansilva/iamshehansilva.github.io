@@ -25,3 +25,11 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+#Devcontainer
+.devcontainer/*
+!.devcontainer/devcontainer.json
+!.devcontainer/post-create.sh
+
+
+

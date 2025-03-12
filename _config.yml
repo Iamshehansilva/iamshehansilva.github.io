@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Europe/Oslo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://iamshehansilva.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: iamromerosilva # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+#twitter:
+#username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/Avatar/Avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -106,6 +106,7 @@ social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+toc_default: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
