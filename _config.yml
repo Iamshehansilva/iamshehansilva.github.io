@@ -19,14 +19,14 @@ title: Shehan Silva # the main title
 tagline: From Learning to Leading:My Cloud & EUC Journey # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Sharing my journey through Azure and Modern Workplace solutions—insights, best practices, and real-world experiences in cloud and EUC.
+  Sharing my journey through Azure and Modern Workplace solutions—insights, best practices, and real-world experiences in cloud and EUC, AVD, Nerdio, Azure Virtual Desktop.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://iamshehansilva.github.io"
 
 github:
-  username: iamromerosilva # change to your GitHub username
+  username: iamshehansilva # change to your GitHub username
 
 #twitter:
 #username: twitter_username # change to your Twitter username
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-MP0MY7VJWS
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
