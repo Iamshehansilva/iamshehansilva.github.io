@@ -1,6 +1,6 @@
 ---
 title: "Balancing Performance and Cost Optimization in AVD"
-date: "2025-05-07 00:00:00 +0100"
+date: "2025-06-11 00:00:00 +0100"
 categories: [Azure, AVD, SKU, Compute, Cost, Optimization,Nerdio,Auto-Scale]
 toc: true
 tags: [Azure, AVD, SKU, Compute, Cost, Optimization,Nerdio,Auto-Scale]
