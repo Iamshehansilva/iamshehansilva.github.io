@@ -1,5 +1,5 @@
 ---
-title: "Sysprep & Windows Updates Breaking Default Apps? Fix It in AVD with Nerdio"
+title: "Sysprep & Windows Updates Breaking Default Apps? Fix It in AVD with Nerdio (MSP)"
 date: "2025-03-08 00:00:00 +0100"
 categories: [Azure, AVD, Windows Updates, Nerdio, Windows Default Apps, Custom Image, Windows 11]
 toc: true
