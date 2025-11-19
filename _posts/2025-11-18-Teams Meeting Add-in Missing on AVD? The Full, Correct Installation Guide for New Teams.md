@@ -28,16 +28,10 @@ After a lot of testing, breaking, rebuilding, and questioning, “why is this st
 
 ## 📌 Important Notes:
 
-### AVD Focus:
-This guide covers the installation of Teams and the Teams Meeting Add-in specifically for Azure Virtual Desktop (AVD) multisession environments.
-### Citrix & Horizon:
-Although the overall concept is similar, Citrix and Omnissa Horizon have their own optimization components and requirements. Always follow the official documentation for those platforms.
-### Windows Server OS:
-Teams on Windows Server editions (2019/2022) have different limitations and installation steps. Refer to Microsoft’s [guide](https://learn.microsoft.com/en-us/microsoftteams/teams-client-vdi-requirements-deploy#installation-instructions-for-windows-server-2019) when deploying Teams on Server OS.
-### AVD Personal Desktops:
-For normal persistent desktops, Teams can be installed per-user. 
-
-However, if your environment rebuilds or replaces Personal Desktop VMs regularly, the best approach is to install Teams machine-wide (using the same method as AVD multisession) to ensure Teams and the Teams Meeting Add-in are available on every new VM.
+- **AVD Focus**: This guide covers the installation of Teams and the Teams Meeting Add-in specifically for Azure Virtual Desktop (AVD) multisession environments.
+- **Citrix & Horizon**: Although the overall concept is similar, Citrix and Omnissa Horizon have their own optimization components and requirements. Always follow the official documentation for those platforms.
+- **Windows Server OS**: Teams on Windows Server editions (2019/2022) have different limitations and installation steps. Refer to Microsoft’s [guide](https://learn.microsoft.com/en-us/microsoftteams/teams-client-vdi-requirements-deploy#installation-instructions-for-windows-server-2019) when deploying Teams on Server OS.
+- **AVD Personal Desktops**: For normal persistent desktops, Teams can be installed per-user. However, if your environment rebuilds or replaces Personal Desktop VMs regularly, the best approach is to install Teams machine-wide (using the same method as AVD multisession) to ensure Teams and the Teams Meeting Add-in are available on every new VM.
   
 ## 💡 So what is the solution then ?
 
@@ -117,13 +111,7 @@ Example:
 
 #### Option B — Install the Teams Meeting Add-in manually (MSI):
 
-The MSIX package contains the Meeting Add-in MSI:
-
-You can install it manually if your environment requires:
-
-- Controlled TARGETDIR.
-- Custom version handling.
-- Validation or troubleshooting.
+If your environment demands controlled deployment:
 
 ```text
 MicrosoftTeamsMeetingAddinInstaller.msi
